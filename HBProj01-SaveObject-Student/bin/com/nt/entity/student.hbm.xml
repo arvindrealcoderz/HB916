@@ -8,7 +8,6 @@
         <hibernate-mapping>
         <class name="com.nt.entity.Student" table="Student">
         	<property name="eno" column="eno"/>
-        		
         </class>
         
         
