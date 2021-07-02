@@ -24,7 +24,8 @@ public class ClientAppTest {
 			}else
 				System.out.println("account no does not matched");
 				
-		} catch (Exception e) {e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 		
 		
