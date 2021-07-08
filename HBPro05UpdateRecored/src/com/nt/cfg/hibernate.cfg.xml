@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<!-- create session factory object -->
+	
+	<session-factory>
+	
+		<property name="hibernate.connection.driver_class">oralc.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:hin:@localhost:1521:orcl</property>
+		<property name="hibernate.connection.user_name">scott</property>
+		<property name="hibernate.connection.password">Arvind</property>
+		
+		<property name="show_sql">true</property>
+		<property name="formate_sql">true</property>
+		<property name="org.hibernate.dialect.Oracle10gDialect">true</property>
+		<!-- mapping file -->
+		<mapping resource="/com/nt./entity/person.hbm.xml"/>
+		
+	</session-factory>
+	
+</hibernate-configuration>	
+	
