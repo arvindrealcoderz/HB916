@@ -26,5 +26,6 @@
 	<classpathentry kind="lib" path="D:/hibernate-release-5.4.25.Final/lib/required/txw2-2.3.1.jar"/>
 	<classpathentry kind="lib" path="D:/jar/ojdbc6.jar"/>
 	<classpathentry kind="lib" path="D:/jar/lombok.jar"/>
+	<classpathentry kind="lib" path="D:/jar/mysql-connector-java-8.0.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
