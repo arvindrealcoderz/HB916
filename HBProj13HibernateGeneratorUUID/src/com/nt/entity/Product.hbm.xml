@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+<!-- mapping class -->
+<hibernate-mapping>
+	<class name="com.nt.entity.Product" table="product_UUID">
+		<id name="pid">
+			<generator class="uuid"/>
+		</id>
+		<property name="pname" column="pname"/>
+		<property name="qty" column="qty"/>
+		<property name="price" column="price"/>
+		<property name="status" column="status"/>
+		
+	
+	</class>
+</hibernate-mapping>
